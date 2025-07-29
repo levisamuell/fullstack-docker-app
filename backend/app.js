@@ -8,7 +8,7 @@ const dbClient = new Client({
   user: process.env.DB_USER || 'postgres',
   password: process.env.DB_PASSWORD || 'postgres',
   database: process.env.DB_NAME || 'testdb',
-  port: process.env.DB_PORT || 5432,
+  port: process.env.DB_PORT || 5000,
 });
 
 dbClient.connect()
